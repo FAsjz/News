@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <ImageView
+        android:id="@+id/main_home"
+        android:clickable="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/home"
+         />
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:background="#404040"/>
+    <TextView 
+        android:id="@+id/main_title_tv"
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="资讯"
+        android:paddingLeft="5dp"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@drawable/backcolor"/>
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:background="#404040"/>
+    <ImageView 
+        android:id="@+id/main_share"
+        android:clickable="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/shard"
+        />
+
+</LinearLayout>

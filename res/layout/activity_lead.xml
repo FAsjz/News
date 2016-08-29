@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeadActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lead_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+    <TextView 
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/lead_tv"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="直接跳过"/>
+    <Button 
+        android:id="@+id/lead_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="立即体验"
+        android:textSize="30dp"
+        android:background="@drawable/lead_bt_pass"
+        android:visibility="invisible"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout 
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:id="@+id/lead_iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lead_rhq_b"/>
+    <ImageView
+        android:id="@+id/lead_iv2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lead_rhq_a"/>
+    <ImageView
+        android:id="@+id/lead_iv3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lead_rhq_a"/>
+     <ImageView
+        android:id="@+id/lead_iv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lead_rhq_a"/>
+    </LinearLayout>
+    
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center" 
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/gray">
+    
+
+     <ImageView 
+        android:id="@+id/weixin"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/fun_share_weixin"
+        android:background="@drawable/pop_layout_pressed"
+        android:scaleType="fitXY"/>
+    <ImageView 
+        android:id="@+id/qq"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/addimport_qq"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/pop_layout_pressed"
+        android:scaleType="fitXY"/>
+    <ImageView 
+        android:id="@+id/friend"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/fun_share_friends"
+        android:background="@drawable/pop_layout_pressed"
+         android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitXY"/>
+    <ImageView 
+        android:id="@+id/weibo"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:src="@drawable/fun_share_weibo"
+        android:background="@drawable/pop_layout_pressed"
+        android:scaleType="fitXY"/>
+</LinearLayout>

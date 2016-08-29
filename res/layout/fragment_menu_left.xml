@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingTop="30dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fragment_menu_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/fragment_left_pressed"
+        android:padding="18dp" >
+
+        <ImageView
+            android:id="@+id/fragment_menu_left_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fragment_news" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:singleLine="true"
+            android:text="新闻"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:text="news"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_menu_rl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragment_left_pressed"
+        android:clickable="true"
+        android:padding="18dp" >
+
+        <ImageView
+            android:id="@+id/fragment_menu_left_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/fragment_left_pressed"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fragment_favorite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:singleLine="true"
+            android:text="收藏"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:text="favorite"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_menu_rl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragment_left_pressed"
+        android:clickable="true"
+        android:padding="18dp" >
+
+        <ImageView
+            android:id="@+id/fragment_menu_left_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fragment_local" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:singleLine="true"
+            android:text="本地"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:text="local"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_menu_rl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragment_left_pressed"
+        android:clickable="true"
+        android:padding="18dp" >
+
+        <ImageView
+            android:id="@+id/fragment_menu_left_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fragment_comment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:singleLine="true"
+            android:text="跟帖"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:text="news"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_menu_rl5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragment_left_pressed"
+        android:clickable="true"
+        android:padding="18dp" >
+
+        <ImageView
+            android:id="@+id/fragment_menu_left_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fragment_photo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:singleLine="true"
+            android:text="照片"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fragment_menu_left_iv"
+            android:layout_toRightOf="@id/fragment_menu_left_iv"
+            android:text="photo"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

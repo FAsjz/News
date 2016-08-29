@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray" >
+    <TextView 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="请选择您的靓照"
+    	android:textSize="25dp"
+    	android:layout_margin="10dp"
+        />
+    <View 
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        />
+    <LinearLayout 
+        android:background="@drawable/pop_layout_pressed"
+        android:id="@+id/pop_camera"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center"
+    	android:padding="10dp"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/camer"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="从照相机中选取图片"
+    		android:textColor="@color/white"
+    		android:layout_marginLeft="8dp"
+    		android:textSize="20dp"
+            />
+            
+        
+    </LinearLayout>
+     <View 
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        />
+    <LinearLayout 
+        android:background="@drawable/pop_layout_pressed"
+        android:id="@+id/pop_photo"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:gravity="center"
+    	android:padding="10dp"
+    	
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/userphoto"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="从相册中选取图片"
+    		android:layout_marginLeft="8dp"
+    		android:textSize="20dp"
+    		android:textColor="@color/white"
+    		android:layout_marginRight="19dp"
+            />
+            
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

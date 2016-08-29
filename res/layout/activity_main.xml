@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/public_main_title_bar" />
+    <FrameLayout 
+        android:id="@+id/menu_news"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+        
+        >
+        
+        
+    </FrameLayout>
+
+</LinearLayout>

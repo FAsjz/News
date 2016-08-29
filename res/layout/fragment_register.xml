@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" 
+            android:hint="请输入邮箱地址">
+
+            <requestFocus />
+        </EditText>
+
+        
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/editText_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" 
+            android:hint="请输入昵称">
+        </EditText>
+        
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/editText_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="密码：6到16位个字符" />
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="立即注册" 
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@drawable/drawable_longbutton_selector"/>
+
+        <CheckBox
+            android:layout_marginTop="30dp"
+            android:id="@+id/checkBox1"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我同意“服务条款”和“网络用户隐私保护和个人信息利用政策”" />
+    </LinearLayout>
+
+</LinearLayout>

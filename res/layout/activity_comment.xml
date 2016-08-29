@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CommentActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/comment_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/backcolor"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="＜"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="#404040" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/backcolor"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp"
+            android:text="评论"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        >
+        <ProgressBar
+            android:id="@+id/comment_progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateBehavior="repeat"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/softmgr_list_progressbar"
+            android:indeterminateDuration="2000"
+            android:indeterminateOnly="true"
+            android:visibility="visible" />
+    <com.feicui.news.view.xlistview.XListView
+        android:id="@+id/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent" 
+        android:visibility="invisible"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText 
+            android:id="@+id/comment_et"
+            android:layout_weight="1"
+            android:layout_width="0dp" 
+            android:layout_height="50dp"
+            android:hint="写评论"/>
+        <ImageView 
+            android:id="@+id/comment_send"
+            android:layout_width="65dp" 
+            android:layout_height="50dp"
+            android:src="@drawable/comment_send"
+            />
+    </LinearLayout>
+
+</LinearLayout>
